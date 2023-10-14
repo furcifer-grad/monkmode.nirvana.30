@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monk Mode</title>
+    <style>
+        /**
+         * 3 golden rules
+         * @copyright 2021 www.havutcuoglu.com
+         * @author Hakan Havutcuoglu
+         * https://codepen.io/havutcuoglu/pen/VwWqgZr
+         * This notice MUST stay intact in CSS file for free and legal usage.
+         **/
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Stick+No+Bills:wght@500&display=swap');
+
+        @mixin v-align($pos:relative,$top:50%,$ty:-50%) {
+            position: $pos;
+            top: $top;
+            transform: translateY($ty);
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+        h1, h2 {
+            font-family: 'Stick No Bills', sans-serif;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 8rem;
+            color: gold;
+            text-shadow: 0 0 10px #000000;
+            border-bottom: 2px solid gold;
+        }
+        h2 {
+            font-size: 4rem;
+            color: black;
+            line-height: 1;
+        }
+        .banner-wrapper {
+            .box {
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 10px;
+                padding: 3rem 2rem;
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+            }
+            .text {
+                color: white;
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+        }
+        .bg-img {
+            position: relative;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            min-width: 100vw;
+            min-height: 100vh;
+            padding-top: 200px;
+            padding-bottom: 200px;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 2rem;
+        }
+        .v-align {
+            @include v-align($top: 100%);
+        }
+        @media screen and (max-width: 639px) {
+            .banner-wrapper {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header grid-container full">
+            <div class="hero-banner bg-img grid-x" style="background-image: url('https://cdn.pixabay.com/photo/2016/08/10/02/10/world-1582347_960_720.jpg');">
+                <div class="grid-container">
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell text-center">
+                            <h1>Monk Mode (निर्वाण)</h1>
+                        </div>
+  <h2 style='color:white'>Are we really in control of our life? From all the surrounding noise, influence can we take concious decisions about our life? MonkMode is a lifestyle through which you can achieve a state called "nirvana" which is the ultimate level of self control!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid-container full">
+                <div class="banner-wrapper bg-img" style="background-image: url('https://cdn.pixabay.com/photo/2019/05/31/16/16/australia-4242493_960_720.jpg');">
+                    <div class="grid-container">
+                        <div class="grid-x grid-margin-x grid-margin-y">
+                            <div class="cell">
+                                <div class="box text-center v-align">
+                                    <div class="headline"><h2>Phase 1: Gakusei 学生</h2></div>
+                                    <div class="text">
+                             
+<p>Gakusei lasts for 7 days. During these 7 days, you have to follow the following mantras:</p>
+<ol>
+    <li>Every day you will start your day by meditating for 5 minutes, think about what you want to do achieve in your life today, what will make you happy, what will feel like a burden if you can't complete today, how do you want to plan your day.</li>
+    <li>If you see anything that brings any kind of lust, look in a different direction and do 5 push-ups and say saṃsāra. Saṃsāra is the "suffering-laden, continuous cycle of life, death, and rebirth, without beginning or end.</li>
+    <li>You can drink any liquid as long as it's not sweet.</li>
+    <li>No meat or meat-based food is allowed.</li>
+    <li>Each time you eat, you can only eat food that can be contained with one of your hands without spilling anything. Once you eat, you can only eat after 2.7182 hours or 2 hours and 43 minutes.</li>
+    <li>You can consume social media or entertainment as long as it doesn't consume you, and you can control your urges to watch more.</li>
+    <li>Run for 2km every day while thinking about how much time you have passed on earth and how much time you may have left to make your life complete.</li>
+    <li>You can't break Gakusei once started. For breaking every rule once, you have to run for 1km while thinking about how much time you have passed on earth and how much time you may have left to make your life complete.</li>
+</ol>
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container full">
+                <div class="banner-wrapper bg-img" style="background-image: url('https://cdn.pixabay.com/photo/2015/03/26/18/36/spacex-693229_960_720.jpg');">
+                    <div class="grid-container">
+                        <div class="grid-x grid-margin-x grid-margin-y">
+                            <div class="cell medium-6">
+                                <div class="box">
+                                    <div class="headline"><h2>Phase 2: Senpai 「先輩」</h2></div>
+                                    <div class="text">
+                                        <p><h3>You can reach Phase 2 only once you have completed Gakusei at least thrice within a month.</h3>
+
+<p>Senpai lasts for 14 days. During these 14 days, you have to strictly follow the following mantras:</p>
+<ol>
+    <li>Every day you will start your day by meditating for 10 minutes, think about what you want to achieve in your life today, what will make you happy, what will feel like a burden if you can't complete today, and how you want to plan your day. You will start your thought from the cyclic nature of life and the universe, how you can achieve ultimate self-control so that it feels like your life, the universe is very much tamed - it's not so harsh anymore. You will start to feel like an alpha.</li>
+    <li>If you see anything that can bring any kind of lust to someone - by this time you should be able to still look at it without feeling any lust. If you still do - look in a different direction and do 10 push-ups and say saṃsāra. Saṃsāra is the "suffering-laden, continuous cycle of life, death, and rebirth, without beginning or end.</li>
+    <li>You can drink any liquid as long as it's not sweet.</li>
+    <li>No meat or meat-based food is allowed.</li>
+    <li>Each time you eat, you can only eat food that can be contained with one of your hands without spilling anything. Once you eat, you can only eat after 2.7182 hours or 2 hours and 43 minutes.</li>
+    <li>You cannot consume any social media. However, any news or sports-related query is fine.</li>
+    <li>Run for 3km every day once while thinking about how much time you have passed on earth and how much time you may have left to make your life complete.</li>
+    <li>Every day, pass a 3-hour extremely time-aware state, where you complete all the earthly tasks with deep work while spending every minute efficiently.</li>
+    <li>Every day during mid-day, ask yourself what will truly make you happy in life - are you doing anything to achieve that happiness?</li>
+    <li>Every day during mid-day, try to visualize how time is passing. Try to realize how we can't control the flow of time.</li>
+    <li>You can't break Senpai once started. If you break any of the rules, you will go back to the start of the Senpai phase.</li>
+</ol>
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container full">
+                <div class="banner-wrapper bg-img" style="background-image: url('https://cdn.pixabay.com/photo/2019/09/06/10/36/astronaut-4456106_960_720.jpg');">
+                    <div class="grid-container">
+                        <div class="grid-x grid-margin-x grid-margin-y">
+                            <div class="cell medium-6 medium-offset-6">
+                                <div class="box">
+                                    <div class="headline"><h2>Phase 3: Senshi 戦士</h2></div>
+                                    <div class="text">
+                                        <p>You can reach phase 3 only once you have completed  Senpai at least five times in your life. 
+
+
+Senshi has all the mantras from Senpai phase, but lasts for 21 days. In this phase, you will try to get a complete control over your lust, craving, desire, and time.
+
+You can reach phase 4 only once you have completed  Senshi at least seven times in your life. 
+
+<div class="headline"><h2>Phase 4: Sensei 先生</h2></div>
+
+Sensei has all the mantras from Senpai phase, but lasts for 30 days. In this phase, you will try to get a complete understanding over lust, craving, desire, saṃsāra, nirvana, the meaning of time, and life.
+
+Once you complete Sensei for nine times in your life, you are expected to achieve "nirvana" - life long self control and awareness.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="grid-container full">
+                <div class="banner-wrapper bg-img" style="background-image: url('https://cdn.pixabay.com/photo/2019/09/06/10/36/astronaut-4456106_960_720.jpg');">
+                    <div class="grid-container">
+                        <div class="grid-x grid-margin-x grid-margin-y">
+                            <div class="cell medium-6 medium-offset-6">
+                                <div class="box">
+                                    <div class="headline"><h2>The Journey: यात्रा</h2></div>
+                                    <div class="text">
+               <p>
+
+             ➼ 15th October - journey start (Gakusei).
+
+
+               </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="footer grid-container full">
+            <div class="grid-x text-center">
+                <p class="cell"><span class="copyright_date"></span> &copy; copyright (Monk)</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // set copyright date
+    var todays_date = new Date();
+    document.querySelector('.copyright_date').innerHTML = todays_date.getFullYear();
+</script>
+</html>
